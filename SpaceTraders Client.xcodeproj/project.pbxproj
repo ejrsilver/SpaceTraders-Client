@@ -9,19 +9,37 @@
 /* Begin PBXBuildFile section */
 		0593C2282AF9C94700622E16 /* SpaceTraders_ClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593C2272AF9C94700622E16 /* SpaceTraders_ClientApp.swift */; };
 		0593C22A2AF9C94700622E16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593C2292AF9C94700622E16 /* ContentView.swift */; };
-		0593C22C2AF9C94700622E16 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593C22B2AF9C94700622E16 /* Item.swift */; };
 		0593C22E2AF9C94A00622E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0593C22D2AF9C94A00622E16 /* Assets.xcassets */; };
 		0593C2312AF9C94A00622E16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0593C2302AF9C94A00622E16 /* Preview Assets.xcassets */; };
+		0593C2412AF9CAE000622E16 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593C2402AF9CAE000622E16 /* Home.swift */; };
+		0593C2442AF9CCCF00622E16 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593C2432AF9CCCF00622E16 /* Auth.swift */; };
+		0593C2462AF9CCDA00622E16 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593C2452AF9CCDA00622E16 /* Errors.swift */; };
+		0593C24A2AF9CCEE00622E16 /* ResourceInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593C2482AF9CCED00622E16 /* ResourceInterfaces.swift */; };
+		0593C24B2AF9CCEE00622E16 /* AuthResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593C2492AF9CCEE00622E16 /* AuthResource.swift */; };
+		0593C24E2AF9CDAF00622E16 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593C24D2AF9CDAF00622E16 /* Agent.swift */; };
+		0593C2502AF9CE7F00622E16 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593C24F2AF9CE7F00622E16 /* RegistrationView.swift */; };
+		0593C2522AF9D5CF00622E16 /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593C2512AF9D5CF00622E16 /* Contract.swift */; };
+		0593C2542AF9D8D400622E16 /* Faction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593C2532AF9D8D400622E16 /* Faction.swift */; };
+		0593C2562AF9D90900622E16 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593C2552AF9D90900622E16 /* Ship.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0593C2242AF9C94700622E16 /* SpaceTraders Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpaceTraders Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0593C2272AF9C94700622E16 /* SpaceTraders_ClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTraders_ClientApp.swift; sourceTree = "<group>"; };
 		0593C2292AF9C94700622E16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0593C22B2AF9C94700622E16 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		0593C22D2AF9C94A00622E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0593C2302AF9C94A00622E16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0593C2322AF9C94A00622E16 /* SpaceTraders_Client.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpaceTraders_Client.entitlements; sourceTree = "<group>"; };
+		0593C2402AF9CAE000622E16 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0593C2432AF9CCCF00622E16 /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		0593C2452AF9CCDA00622E16 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		0593C2482AF9CCED00622E16 /* ResourceInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceInterfaces.swift; sourceTree = "<group>"; };
+		0593C2492AF9CCEE00622E16 /* AuthResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthResource.swift; sourceTree = "<group>"; };
+		0593C24D2AF9CDAF00622E16 /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		0593C24F2AF9CE7F00622E16 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		0593C2512AF9D5CF00622E16 /* Contract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contract.swift; sourceTree = "<group>"; };
+		0593C2532AF9D8D400622E16 /* Faction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faction.swift; sourceTree = "<group>"; };
+		0593C2552AF9D90900622E16 /* Ship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +72,11 @@
 		0593C2262AF9C94700622E16 /* SpaceTraders Client */ = {
 			isa = PBXGroup;
 			children = (
+				0593C24C2AF9CD3900622E16 /* Views */,
+				0593C2472AF9CCE300622E16 /* Resources */,
+				0593C2422AF9CCC100622E16 /* Models */,
 				0593C2272AF9C94700622E16 /* SpaceTraders_ClientApp.swift */,
 				0593C2292AF9C94700622E16 /* ContentView.swift */,
-				0593C22B2AF9C94700622E16 /* Item.swift */,
 				0593C22D2AF9C94A00622E16 /* Assets.xcassets */,
 				0593C2322AF9C94A00622E16 /* SpaceTraders_Client.entitlements */,
 				0593C22F2AF9C94A00622E16 /* Preview Content */,
@@ -70,6 +90,37 @@
 				0593C2302AF9C94A00622E16 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0593C2422AF9CCC100622E16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0593C2432AF9CCCF00622E16 /* Auth.swift */,
+				0593C2452AF9CCDA00622E16 /* Errors.swift */,
+				0593C24D2AF9CDAF00622E16 /* Agent.swift */,
+				0593C2512AF9D5CF00622E16 /* Contract.swift */,
+				0593C2532AF9D8D400622E16 /* Faction.swift */,
+				0593C2552AF9D90900622E16 /* Ship.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0593C2472AF9CCE300622E16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0593C2492AF9CCEE00622E16 /* AuthResource.swift */,
+				0593C2482AF9CCED00622E16 /* ResourceInterfaces.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0593C24C2AF9CD3900622E16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0593C2402AF9CAE000622E16 /* Home.swift */,
+				0593C24F2AF9CE7F00622E16 /* RegistrationView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +194,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0593C22A2AF9C94700622E16 /* ContentView.swift in Sources */,
-				0593C22C2AF9C94700622E16 /* Item.swift in Sources */,
+				0593C2562AF9D90900622E16 /* Ship.swift in Sources */,
+				0593C2412AF9CAE000622E16 /* Home.swift in Sources */,
 				0593C2282AF9C94700622E16 /* SpaceTraders_ClientApp.swift in Sources */,
+				0593C2542AF9D8D400622E16 /* Faction.swift in Sources */,
+				0593C2522AF9D5CF00622E16 /* Contract.swift in Sources */,
+				0593C2502AF9CE7F00622E16 /* RegistrationView.swift in Sources */,
+				0593C2442AF9CCCF00622E16 /* Auth.swift in Sources */,
+				0593C24B2AF9CCEE00622E16 /* AuthResource.swift in Sources */,
+				0593C24E2AF9CDAF00622E16 /* Agent.swift in Sources */,
+				0593C2462AF9CCDA00622E16 /* Errors.swift in Sources */,
+				0593C24A2AF9CCEE00622E16 /* ResourceInterfaces.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
